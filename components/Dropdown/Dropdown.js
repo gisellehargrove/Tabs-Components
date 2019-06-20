@@ -19,7 +19,6 @@ class Dropdown {
   toggleContent() {
 
     // Toggle the ".dropdown-hidden" class off and on
-    console.log('content toggle', this.content.classList.length)
     if(this.content.classList.length === 2) {
       this.content.classList.remove('dropdown-hidden');
     } else {
